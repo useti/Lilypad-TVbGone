@@ -2170,7 +2170,6 @@ Source: www.kingbright.com</description>
 <part name="PAD6" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -2233,7 +2232,6 @@ Source: www.kingbright.com</description>
 <instance part="PAD6" gate="P" x="86.36" y="73.66"/>
 <instance part="GND1" gate="1" x="30.48" y="40.64"/>
 <instance part="GND2" gate="1" x="99.06" y="93.98"/>
-<instance part="GND3" gate="1" x="147.32" y="132.08"/>
 <instance part="GND4" gate="1" x="101.6" y="147.32"/>
 <instance part="GND5" gate="1" x="78.74" y="147.32"/>
 <instance part="GND6" gate="1" x="170.18" y="149.86"/>
@@ -2412,12 +2410,6 @@ Source: www.kingbright.com</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
-<label x="152.4" y="134.62" size="1.778" layer="95"/>
-<pinref part="U$34" gate="G$1" pin="1"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="T1" gate="G1" pin="E"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
@@ -2428,6 +2420,13 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="U$31" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<wire x1="170.18" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<label x="152.4" y="134.62" size="1.778" layer="95"/>
+<pinref part="U$34" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
