@@ -5425,11 +5425,6 @@ type RDH, grid 15 mm</description>
 <junction x="30.48" y="43.18"/>
 </segment>
 <segment>
-<pinref part="PAD3" gate="P" pin="P"/>
-<wire x1="99.06" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="T1" gate="G1" pin="E"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
@@ -5440,6 +5435,12 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="U$31" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="PAD2" gate="P" pin="P"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="88.9" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="104.14" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
