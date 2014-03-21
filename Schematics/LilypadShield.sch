@@ -4985,8 +4985,8 @@ type RDH, grid 15 mm</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="PAD7" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD8" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="+" library="wirepad" deviceset="1,6/0,8" device="" value="+"/>
+<part name="-" library="wirepad" deviceset="1,6/0,8" device="" value="-"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0204/5"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/5"/>
 </parts>
@@ -5048,8 +5048,8 @@ type RDH, grid 15 mm</description>
 <instance part="GND4" gate="1" x="101.6" y="147.32"/>
 <instance part="GND5" gate="1" x="78.74" y="147.32"/>
 <instance part="GND6" gate="1" x="170.18" y="149.86"/>
-<instance part="PAD7" gate="P" x="20.32" y="50.8"/>
-<instance part="PAD8" gate="P" x="20.32" y="43.18"/>
+<instance part="+" gate="P" x="20.32" y="50.8"/>
+<instance part="-" gate="P" x="20.32" y="43.18"/>
 <instance part="R1" gate="G$1" x="88.9" y="147.32" rot="R90"/>
 <instance part="R2" gate="G$1" x="66.04" y="147.32" rot="R90"/>
 </instances>
@@ -5183,7 +5183,7 @@ type RDH, grid 15 mm</description>
 <pinref part="U$4" gate="G$1" pin="1"/>
 <pinref part="P+5" gate="1" pin="VCC"/>
 <wire x1="35.56" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="PAD7" gate="P" pin="P"/>
+<pinref part="+" gate="P" pin="P"/>
 <wire x1="22.86" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="30.48" y="50.8"/>
 </segment>
@@ -5213,7 +5213,7 @@ type RDH, grid 15 mm</description>
 <wire x1="35.56" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$30" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="PAD8" gate="P" pin="P"/>
+<pinref part="-" gate="P" pin="P"/>
 <wire x1="30.48" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 <junction x="30.48" y="43.18"/>
 </segment>
