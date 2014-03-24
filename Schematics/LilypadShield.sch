@@ -4993,8 +4993,6 @@ type RDH, grid 15 mm</description>
 <sheets>
 <sheet>
 <plain>
-<text x="154.94" y="27.94" size="3.81" layer="94">LilyPad - MainBoard</text>
-<text x="167.64" y="7.62" size="3.175" layer="94">Spark Fun Electronics</text>
 <text x="158.496" y="93.98" size="1.778" layer="95">/D11</text>
 <text x="158.496" y="91.44" size="1.778" layer="95">/D12</text>
 <text x="157.48" y="88.9" size="1.778" layer="95">/D13</text>

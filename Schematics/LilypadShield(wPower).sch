@@ -1861,10 +1861,10 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </library>
 <library name="LilyPad-Wearables">
 <packages>
-<package name="PETAL-LONG-1">
+<package name="SEWTAP">
 <wire x1="0" y1="0" x2="2.7" y2="0" width="0.01" layer="49"/>
 <circle x="5" y="0" radius="2.3" width="0.01" layer="49"/>
-<pad name="1" x="0.03" y="0" drill="2.794" diameter="4.064"/>
+<pad name="1" x="0.03" y="0" drill="1.2"/>
 <polygon width="0.2032" layer="1" spacing="0.4064">
 <vertex x="3.6" y="-1.9" curve="-110.088851"/>
 <vertex x="3.6" y="1.9"/>
@@ -1872,262 +1872,36 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <vertex x="-3" y="0" curve="89.991186"/>
 <vertex x="-0.4" y="-2.5"/>
 </polygon>
-<polygon width="0.2032" layer="29" spacing="0.4064">
-<vertex x="3.6" y="-1.9" curve="-110.088851"/>
-<vertex x="3.6" y="1.9"/>
-<vertex x="-0.4" y="2.5" curve="89.995593"/>
-<vertex x="-3" y="0" curve="89.991186"/>
-<vertex x="-0.4" y="-2.5"/>
-</polygon>
 </package>
-<package name="PETAL-LONG-2">
-<pad name="1" x="0" y="0" drill="2.794" rot="R90"/>
-<polygon width="0.2032" layer="1">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-</package>
-<package name="PETAL-MEDIUM">
-<pad name="1" x="0" y="-0.254" drill="2.794"/>
+<package name="SEWTAP-2">
+<pad name="P$1" x="0.03" y="0" drill="1.2"/>
 <polygon width="0.127" layer="1">
-<vertex x="0" y="-3.81" curve="90"/>
-<vertex x="3.81" y="0" curve="-73.739795"/>
-<vertex x="-3.81" y="0" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="-3.81" curve="90"/>
-<vertex x="3.81" y="0" curve="-73.739795"/>
-<vertex x="-3.81" y="0" curve="90"/>
-</polygon>
-</package>
-<package name="PETAL-LARGE">
-<wire x1="0" y1="3.81" x2="0" y2="1.27" width="1.524" layer="1"/>
-<pad name="1" x="0" y="3.556" drill="2.794"/>
-<hole x="0" y="3.556" drill="1.5"/>
-<polygon width="0.127" layer="1">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
+<vertex x="3.81" y="-1.905" curve="-89.990978"/>
+<vertex x="2.54" y="-0.635"/>
+<vertex x="2.54" y="0.635" curve="-89.990978"/>
+<vertex x="3.81" y="1.905"/>
+<vertex x="-0.39" y="2.446" curve="89.995489"/>
+<vertex x="-2.93" y="0" curve="89.990942"/>
+<vertex x="-0.4" y="-2.326"/>
 </polygon>
 </package>
-<package name="PETAL-SMALL">
-<pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
+<package name="SEWTAP-SMALL">
+<wire x1="-1" y1="0" x2="-0.74" y2="0" width="1.27" layer="1"/>
+<pad name="1" x="0" y="0" drill="1.2"/>
 <polygon width="0.2032" layer="1">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
+<vertex x="0.6" y="2.4" curve="96.730733"/>
+<vertex x="-2" y="0" curve="96.730733"/>
+<vertex x="0.6" y="-2.4" curve="-106.260205"/>
 </polygon>
 </package>
-<package name="PETAL-SMALL-2SIDE">
-<pad name="1" x="0" y="0" drill="2.2" rot="R90"/>
+<package name="SEWTAP-SMALL-2">
+<pad name="P$1" x="0" y="0" drill="1.2"/>
 <polygon width="0.2032" layer="1">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-2.4" y="0.6" curve="96.730733"/>
-<vertex x="0" y="-2" curve="96.730733"/>
-<vertex x="2.4" y="0.6" curve="-106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="30">
-<vertex x="2.4" y="0.6" curve="-96.730733"/>
-<vertex x="0" y="-2" curve="-96.730733"/>
-<vertex x="-2.4" y="0.6" curve="106.260205"/>
-</polygon>
-<polygon width="0.2032" layer="16">
-<vertex x="2.4" y="0.6" curve="-96.730733"/>
-<vertex x="0" y="-2" curve="-96.730733"/>
-<vertex x="-2.4" y="0.6" curve="106.260205"/>
-</polygon>
-</package>
-<package name="PETAL-LARGE-2SIDE">
-<wire x1="0" y1="3.81" x2="0" y2="1.27" width="1.524" layer="1"/>
-<pad name="1" x="0" y="3.556" drill="2.794"/>
-<hole x="0" y="3.556" drill="1.5"/>
-<polygon width="0.127" layer="1">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="0" curve="90"/>
-<vertex x="5.08" y="5.08" curve="-73.73763"/>
-<vertex x="-5.08" y="5.08" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="0" y="0" curve="-90"/>
-<vertex x="-5.08" y="5.08" curve="73.73763"/>
-<vertex x="5.08" y="5.08" curve="-90"/>
-</polygon>
-<polygon width="0.127" layer="16">
-<vertex x="0" y="0" curve="-90"/>
-<vertex x="-5.08" y="5.08" curve="73.73763"/>
-<vertex x="5.08" y="5.08" curve="-90"/>
-</polygon>
-</package>
-<package name="PETAL-MEDIUM-2SIDE">
-<pad name="1" x="0" y="-0.254" drill="2.794"/>
-<polygon width="0.127" layer="1">
-<vertex x="0" y="-3.81" curve="90"/>
-<vertex x="3.81" y="0" curve="-73.739795"/>
-<vertex x="-3.81" y="0" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="-3.81" curve="90"/>
-<vertex x="3.81" y="0" curve="-73.739795"/>
-<vertex x="-3.81" y="0" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="16">
-<vertex x="0" y="-3.81" curve="-90"/>
-<vertex x="-3.81" y="0" curve="73.739795"/>
-<vertex x="3.81" y="0" curve="-90"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="0" y="-3.81" curve="-90"/>
-<vertex x="-3.81" y="0" curve="73.739795"/>
-<vertex x="3.81" y="0" curve="-90"/>
-</polygon>
-</package>
-<package name="PETAL-LONG-1-2SIDE">
-<wire x1="0" y1="0" x2="2.7" y2="0" width="0.01" layer="49"/>
-<circle x="5" y="0" radius="2.3" width="0.01" layer="49"/>
-<pad name="1" x="0.03" y="0" drill="2.794" diameter="4.064"/>
-<polygon width="0.2032" layer="1" spacing="0.4064">
-<vertex x="3.6" y="-1.9" curve="-110.088851"/>
-<vertex x="3.6" y="1.9"/>
-<vertex x="-0.4" y="2.5" curve="89.995593"/>
-<vertex x="-3" y="0" curve="89.991186"/>
-<vertex x="-0.4" y="-2.5"/>
-</polygon>
-<polygon width="0.2032" layer="29" spacing="0.4064">
-<vertex x="3.6" y="-1.9" curve="-110.088851"/>
-<vertex x="3.6" y="1.9"/>
-<vertex x="-0.4" y="2.5" curve="89.995593"/>
-<vertex x="-3" y="0" curve="89.991186"/>
-<vertex x="-0.4" y="-2.5"/>
-</polygon>
-<polygon width="0.2032" layer="30" spacing="0.4064">
-<vertex x="3.6" y="1.9" curve="110.088851"/>
-<vertex x="3.6" y="-1.9"/>
-<vertex x="-0.4" y="-2.5" curve="-89.995593"/>
-<vertex x="-3" y="0" curve="-89.991186"/>
-<vertex x="-0.4" y="2.5"/>
-</polygon>
-<polygon width="0.2032" layer="16" spacing="0.4064">
-<vertex x="3.6" y="1.9" curve="110.088851"/>
-<vertex x="3.6" y="-1.9"/>
-<vertex x="-0.4" y="-2.5" curve="-89.995593"/>
-<vertex x="-3" y="0" curve="-89.991186"/>
-<vertex x="-0.4" y="2.5"/>
-</polygon>
-</package>
-<package name="PETAL-LONG-2-2SIDE">
-<pad name="1" x="0" y="0" drill="2.794" rot="R90"/>
-<polygon width="0.2032" layer="1">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-<polygon width="0.2032" layer="30">
-<vertex x="1.27" y="2.255" curve="-12.680383"/>
-<vertex x="2.406" y="-0.02" curve="-89.995453"/>
-<vertex x="0" y="-2.54" curve="-89.991152"/>
-<vertex x="-2.436" y="0.05" curve="9.397466"/>
-<vertex x="-1.27" y="2.255" curve="-154.643527"/>
-</polygon>
-<polygon width="0.2032" layer="16">
-<vertex x="1.27" y="2.255" curve="-12.680383"/>
-<vertex x="2.406" y="-0.02" curve="-89.995453"/>
-<vertex x="0" y="-2.54" curve="-89.991152"/>
-<vertex x="-2.436" y="0.05" curve="-9.397466"/>
-<vertex x="-1.27" y="2.255" curve="-154.643527"/>
-</polygon>
-<polygon width="0.2032" layer="41">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-<polygon width="0.2032" layer="42">
-<vertex x="-1.27" y="2.255" curve="9.397466"/>
-<vertex x="-2.436" y="0.05" curve="89.995576"/>
-<vertex x="0" y="-2.54" curve="89.990906"/>
-<vertex x="2.406" y="-0.02" curve="12.680383"/>
-<vertex x="1.27" y="2.255" curve="154.643527"/>
-</polygon>
-</package>
-<package name="PETAL-TINY">
-<pad name="1" x="0" y="0" drill="1.016" diameter="2.032" rot="R90" stop="no" thermals="no"/>
-<polygon width="0.2032" layer="29">
-<vertex x="-1.27" y="-0.127"/>
-<vertex x="-1.27" y="0.254" curve="-90"/>
-<vertex x="0" y="1.524" curve="-90"/>
-<vertex x="1.27" y="0.254"/>
-<vertex x="1.27" y="-0.127" curve="90"/>
-</polygon>
-<polygon width="0.2032" layer="1">
-<vertex x="-1.27" y="-0.127"/>
-<vertex x="-1.27" y="0.254" curve="-90"/>
-<vertex x="0" y="1.524" curve="-90"/>
-<vertex x="1.27" y="0.254"/>
-<vertex x="1.27" y="-0.127" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="0.0025" y="-0.9525" curve="-90"/>
-<vertex x="-0.9524" y="-0.0228" curve="-90.011749"/>
-<vertex x="0" y="0.9526" curve="-90"/>
-<vertex x="0.95" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="-0.4445" curve="-90.012891"/>
-<vertex x="-0.4445" y="-0.0203" curve="-90"/>
-<vertex x="0" y="0.447" curve="-90"/>
-<vertex x="0.4419" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.2032" layer="30">
-<vertex x="1.27" y="-0.127"/>
-<vertex x="1.27" y="0.254" curve="90"/>
-<vertex x="0" y="1.524" curve="90"/>
-<vertex x="-1.27" y="0.254"/>
-<vertex x="-1.27" y="-0.127" curve="-90"/>
-</polygon>
-<polygon width="0.2032" layer="16">
-<vertex x="-1.27" y="-0.127"/>
-<vertex x="-1.27" y="0.254" curve="-90"/>
-<vertex x="0" y="1.524" curve="-90"/>
-<vertex x="1.27" y="0.254"/>
-<vertex x="1.27" y="-0.127" curve="90"/>
+<vertex x="2.255" y="1.27" curve="9.397466"/>
+<vertex x="0.05" y="2.436" curve="89.995576"/>
+<vertex x="-2.54" y="0" curve="89.990906"/>
+<vertex x="-0.02" y="-2.406" curve="12.680383"/>
+<vertex x="2.255" y="-1.27" curve="154.643527"/>
 </polygon>
 </package>
 </packages>
@@ -2144,7 +1918,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <gate name="G$1" symbol="SEWTAP" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="1" package="PETAL-LONG-1">
+<device name="1" package="SEWTAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -2152,7 +1926,15 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <technology name=""/>
 </technologies>
 </device>
-<device name="2" package="PETAL-LONG-2">
+<device name="2" package="SEWTAP-2">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="SEWTAP-SMALL">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
@@ -2160,73 +1942,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <technology name=""/>
 </technologies>
 </device>
-<device name="3" package="PETAL-MEDIUM">
+<device name="4" package="SEWTAP-SMALL-2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5" package="PETAL-LARGE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4" package="PETAL-SMALL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="6" package="PETAL-SMALL-2SIDE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="7" package="PETAL-LARGE-2SIDE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="8" package="PETAL-MEDIUM-2SIDE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="9" package="PETAL-LONG-1-2SIDE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="10" package="PETAL-LONG-2-2SIDE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="11" package="PETAL-TINY">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4166,8 +3884,10 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 </variantdefs>
 <classes>
 <class number="0" name="Default" width="0.2032" drill="0">
+<clearance class="0" value="0.355"/>
 </class>
 <class number="1" name="VCC" width="0.3048" drill="0">
+<clearance class="1" value="0.355"/>
 </class>
 </classes>
 <parts>
@@ -4229,6 +3949,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <part name="S1" library="SparkFun" deviceset="AYZ0202" device=""/>
 <part name="D1" library="SparkFun-Nate" deviceset="DIODE" device="SMA" value="MBRA140"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
+<part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4326,6 +4047,9 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 </instance>
 <instance part="P+3" gate="1" x="157.48" y="78.74" smashed="yes">
 <attribute name="VALUE" x="156.464" y="82.296" size="1.778" layer="96"/>
+</instance>
+<instance part="P+4" gate="1" x="35.56" y="50.8" smashed="yes">
+<attribute name="VALUE" x="34.544" y="54.356" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4459,6 +4183,10 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="1" pin="VCC"/>
 <junction x="157.48" y="78.74"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="1"/>
+<pinref part="P+4" gate="1" pin="VCC"/>
 </segment>
 </net>
 <net name="GND" class="0">

@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/urii/Dropbox/RnD/Eagle/tvbg/Schematics/LilypadShield(wPower).brd
+Job           : /home/ytihoglaz/work/eagle/Lilypad-TVbGone/Schematics/LilypadShield(wPower).brd
 
-Start at      : 12:30:22 (22.03.14)
-End at        : 12:30:22 (22.03.14)
+Start at      : 17:35:15 (24.03.14)
+End at        : 17:35:15 (24.03.14)
 Elapsed time  : 00:00:00
 
 Signals       :    33   RoutingGrid: 50 mil  Layers: 2
-Connections   :    36   predefined:  35 ( 16 Vias )
+Connections   :    37   predefined:  36 ( 22 Vias )
 
 Router memory :   10000
 
-Passname          :     Route
+Passname          :    Busses     Route
 
-Time per pass     :  00:00:00
-Number of Ripups  :         0
-max. Level        :         0
-max. Total        :         0
+Time per pass     :  00:00:00  00:00:00
+Number of Ripups  :         0         0
+max. Level        :         0         1
+max. Total        :         0         0
 
-Routed            :         1
-Vias              :         2
-Resolution        :   100.0 %
+Routed            :         0         0
+Vias              :         0         0
+Resolution        :    97.3 %    97.3 %
 
-Final             : 100.0% finished
+Final             : 97.3% finished
