@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4972,8 +4972,6 @@ type RDH, grid 15 mm</description>
 <part name="T2" library="transistor" deviceset="2N3904" device="" value=" "/>
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
 <part name="LED2" library="led" deviceset="LED" device="5MM"/>
-<part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
-<part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="PAD1" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="PAD2" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="PAD3" library="wirepad" deviceset="1,6/0,8" device=""/>
@@ -4989,6 +4987,10 @@ type RDH, grid 15 mm</description>
 <part name="-" library="wirepad" deviceset="1,6/0,8" device="" value="-"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0204/5"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/5"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0204/5"/>
+<part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0204/5"/>
+<part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5029,12 +5031,6 @@ type RDH, grid 15 mm</description>
 <instance part="T2" gate="G1" x="76.2" y="154.94"/>
 <instance part="LED1" gate="G$1" x="78.74" y="165.1"/>
 <instance part="LED2" gate="G$1" x="101.6" y="165.1"/>
-<instance part="P+1" gate="1" x="78.74" y="167.64" smashed="yes">
-<attribute name="VALUE" x="77.724" y="171.196" size="1.778" layer="96"/>
-</instance>
-<instance part="P+2" gate="1" x="101.6" y="167.64" smashed="yes">
-<attribute name="VALUE" x="100.584" y="171.196" size="1.778" layer="96"/>
-</instance>
 <instance part="PAD1" gate="P" x="86.36" y="111.76"/>
 <instance part="PAD2" gate="P" x="86.36" y="104.14"/>
 <instance part="PAD3" gate="P" x="86.36" y="96.52"/>
@@ -5050,6 +5046,14 @@ type RDH, grid 15 mm</description>
 <instance part="-" gate="P" x="20.32" y="43.18"/>
 <instance part="R1" gate="G$1" x="88.9" y="147.32" rot="R90"/>
 <instance part="R2" gate="G$1" x="66.04" y="147.32" rot="R90"/>
+<instance part="R3" gate="G$1" x="78.74" y="172.72" rot="R90"/>
+<instance part="P+1" gate="1" x="78.74" y="177.8" smashed="yes">
+<attribute name="VALUE" x="77.724" y="181.356" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="101.6" y="172.72" rot="R90"/>
+<instance part="P+2" gate="1" x="101.6" y="177.8" smashed="yes">
+<attribute name="VALUE" x="100.584" y="181.356" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5186,11 +5190,11 @@ type RDH, grid 15 mm</description>
 <junction x="30.48" y="50.8"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="P+2" gate="1" pin="VCC"/>
 </segment>
 </net>
@@ -5255,6 +5259,18 @@ type RDH, grid 15 mm</description>
 <wire x1="88.9" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="152.4" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
