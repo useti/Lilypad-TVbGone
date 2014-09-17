@@ -5273,6 +5273,11 @@ type RDH, grid 15 mm</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="N$8" class="0">
+<segment>
+<wire x1="101.6" y1="160.02" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
