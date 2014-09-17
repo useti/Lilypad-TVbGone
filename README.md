@@ -10,4 +10,4 @@ Small project of TV-B-Gone shield for lilypad arduino and arduino nano
 ![alt text](https://raw.github.com/useti/Lilypad-TVbGone/master/Images/vi.jpg "Final look")
 
 Nano shield
-![alt text](https://raw.github.com/useti/Lilypad-TVbGone/master/Images/ni.jpg "Front view")
+![alt text](https://raw.github.com/useti/Lilypad-TVbGone/master/Images/ni.png "Front view")
