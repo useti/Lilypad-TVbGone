@@ -28,19 +28,19 @@
 #define NOP __asm__ __volatile__ ("nop")
 
 // Tweak this if neccessary to change timing
-//#define DELAY_CNT 25
+#define DELAY_CNT 25
 
 // Copied from Adafruit TV-B-Gone 
-#define DELAY_CNT 11
+//#define DELAY_CNT 11
 
 
 // Makes the codes more readable. the OCRA is actually
 // programmed in terms of 'periods' not 'freqs' - that
 // is, the inverse!
-//#define freq_to_timerval(x) (F_CPU / 8 / x - 1)
+#define freq_to_timerval(x) (F_CPU / 8 / x - 1)
 
 // Copied from Adafruit TV-B-Gone
-#define freq_to_timerval(x) ((F_CPU / x - 1)/ 2)
+//#define freq_to_timerval(x) ((F_CPU / x - 1)/ 2)
 
 // The structure of compressed code entries
 struct IrCode {
